@@ -28,7 +28,7 @@ class VahadaneStainExtractor(ABCStainExtractor):
 
         # do the dictionary learning
         dictionary = spams.trainDL(X=OD.T, K=2, lambda1=regularizer, mode=2,
-                                   modeD=0, posAlpha=True, posD=True, verbose=False).T
+                                   modeD=0, posAlpha=True, posD=True, verbose=False, numThreads=1).T
 
         # order H and E.
         # H on first row.
