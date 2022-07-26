@@ -11,9 +11,7 @@ setup(
     install_requires=[
         'numpy',
         'matplotlib',
-        'opencv-python'
-
-        # Spams PyPI install is currently broken
-        # 'spams'
+        'opencv-python',
+        'spams-bin'
     ]
 )

@@ -4,8 +4,9 @@ Tools for tissue image stain normalization and augmentation in Python 3.
 
 ## Install
 
-1. `pip install staintools`
-2. Install [SPAMS](http://spams-devel.gforge.inria.fr). This is a dependency to staintools and is technically available on PyPI (see [here](https://pypi.org/project/spams/)). However, personally I have had some issues with the PyPI install and would instead recommend using conda (see [here](https://anaconda.org/conda-forge/python-spams)).
+1. `git clone https://github.com/Karol-G/StainTools.git`
+2. `cd StainTools`
+3. `pip install .`
 
 ## Quickstart
 
